@@ -6,9 +6,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
   if (!locale || !routing.locales.includes(locale as any)) {
     locale = routing.defaultLocale;
   }
+
+  const messages = await import(`../messages/${locale}.json`).then(m => m.default);
+
   return {
     locale,
-    messages: (await import(`../messages/${locale}.json`)).default,
+    messages,
     timeZone: 'UTC',
     now: new Date()
   };
