@@ -1,0 +1,252 @@
+{
+  "common": {
+    "siteTitle": "ツールハブ",
+    "backHome": "← ホームに戻る",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "clear": "クリア",
+    "generate": "生成",
+    "download": "ダウンロード",
+    "encode": "エンコード",
+    "decode": "デコード",
+    "format": "フォーマット",
+    "minify": "圧縮",
+    "input": "入力",
+    "output": "出力",
+    "loading": "読み込み中...",
+    "processing": "処理中..."
+  },
+  "nav": {
+    "language": "言語",
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "pt": "Português",
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية"
+  },
+  "home": {
+    "title": "ツールハブ",
+    "subtitle": "誰でも使える無料オンラインツール。登録不要。",
+    "tools": {
+      "jsonFormatter": {
+        "name": "JSONフォーマッター",
+        "description": "JSONデータのフォーマット、検証、整形"
+      },
+      "base64": {
+        "name": "Base64エンコーダー",
+        "description": "Base64文字列のエンコードとデコード"
+      },
+      "password": {
+        "name": "パスワード生成",
+        "description": "強力なランダムパスワードを生成"
+      },
+      "qrCode": {
+        "name": "QRコード生成",
+        "description": "テキストやURLからQRコードを作成"
+      },
+      "hash": {
+        "name": "ハッシュ生成",
+        "description": "MD5、SHA-1、SHA-256、SHA-512ハッシュを生成"
+      },
+      "uuid": {
+        "name": "UUID生成",
+        "description": "ランダムなUUID v4文字列を生成"
+      },
+      "imageCompressor": {
+        "name": "画像圧縮",
+        "description": "ブラウザでJPGとPNG画像を圧縮"
+      },
+      "colorPicker": {
+        "name": "カラーピッカー",
+        "description": "色を選択してHEX、RGB、HSL値を取得"
+      },
+      "regexTester": {
+        "name": "正規表現テスター",
+        "description": "正規表現をリアルタイムでテストとデバッグ"
+      },
+      "wordCounter": {
+        "name": "文字数カウンター",
+        "description": "単語、文字、文などをカウント"
+      },
+      "textCase": {
+        "name": "テキスト大文字小文字変換",
+        "description": "テキストを異なる大文字小文字形式に変換"
+      },
+      "timestamp": {
+        "name": "タイムスタンプ変換",
+        "description": "Unixタイムスタンプと日付を相互変換"
+      },
+      "urlEncoder": {
+        "name": "URLエンコーダー",
+        "description": "URLコンポーネントのエンコードとデコード"
+      },
+      "markdownPreview": {
+        "name": "Markdownプレビュー",
+        "description": "Markdownを書いてHTMLプレビューをリアルタイム表示"
+      }
+    }
+  },
+  "tools": {
+    "jsonFormatter": {
+      "title": "JSONフォーマッター",
+      "description": "JSONデータをフォーマット、検証、整形",
+      "inputLabel": "JSON入力",
+      "inputPlaceholder": "{\"name\": \"value\"}",
+      "outputLabel": "出力",
+      "outputPlaceholder": "フォーマットされたJSONがここに表示されます",
+      "formatBtn": "フォーマット",
+      "minifyBtn": "圧縮",
+      "clearBtn": "クリア"
+    },
+    "base64": {
+      "title": "Base64エンコーダー/デコーダー",
+      "description": "テキストをBase64にエンコードまたはBase64文字列をデコード",
+      "inputLabel": "入力",
+      "inputPlaceholder": "エンコードするテキストまたはデコードするBase64を入力...",
+      "outputLabel": "出力",
+      "outputPlaceholder": "結果がここに表示されます...",
+      "encodeBtn": "エンコード →",
+      "decodeBtn": "← デコード",
+      "errorEncode": "エンコードに失敗しました",
+      "errorDecode": "無効なBase64文字列"
+    },
+    "password": {
+      "title": "パスワード生成",
+      "description": "強力なランダムパスワードを生成",
+      "lengthLabel": "長さ",
+      "charTypesLabel": "文字タイプ",
+      "uppercase": "大文字",
+      "lowercase": "小文字",
+      "numbers": "数字",
+      "symbols": "記号",
+      "countLabel": "生成数",
+      "generateBtn": "パスワードを生成"
+    },
+    "qrCode": {
+      "title": "QRコード生成",
+      "description": "テキストやURLからQRコードを作成",
+      "textLabel": "テキスト / URL",
+      "sizeLabel": "サイズ",
+      "foregroundLabel": "前景色",
+      "backgroundLabel": "背景色",
+      "errorCorrectionLabel": "誤り訂正",
+      "errorLow": "L - 低 (7%)",
+      "errorMedium": "M - 中 (15%)",
+      "errorQuartile": "Q - 四分位 (25%)",
+      "errorHigh": "H - 高 (30%)",
+      "downloadPng": "PNGをダウンロード",
+      "downloadSvg": "SVGをダウンロード"
+    },
+    "hash": {
+      "title": "ハッシュ生成",
+      "description": "MD5、SHA-1、SHA-256、SHA-512ハッシュを生成",
+      "inputLabel": "入力テキスト",
+      "inputPlaceholder": "ハッシュ化するテキストを入力...",
+      "generateBtn": "ハッシュを生成",
+      "generating": "生成中..."
+    },
+    "uuid": {
+      "title": "UUID生成",
+      "description": "ランダムなUUID v4文字列を生成",
+      "countLabel": "数",
+      "generateBtn": "UUIDを生成",
+      "generated": "個のUUIDが生成されました",
+      "copyAll": "すべてコピー"
+    },
+    "imageCompressor": {
+      "title": "画像圧縮",
+      "description": "品質を保ちながらJPGとPNG画像を圧縮",
+      "qualityLabel": "品質",
+      "maxWidthLabel": "最大幅",
+      "dropZone": "画像をここにドロップまたはクリックしてアップロード",
+      "dropZoneHint": "JPG、PNG、WebP — 各最大20MB",
+      "compressing": "圧縮中...",
+      "original": "元のサイズ",
+      "compressed": "圧縮後",
+      "saved": "削減"
+    },
+    "colorPicker": {
+      "title": "カラーピッカー",
+      "description": "色を選択してHEX、RGB、HSL値を取得",
+      "shadesLabel": "シェード"
+    },
+    "regexTester": {
+      "title": "正規表現テスター",
+      "description": "正規表現をリアルタイムでテストとデバッグ",
+      "patternLabel": "パターン",
+      "patternPlaceholder": "例: \\d+",
+      "flagsLabel": "フラグ",
+      "testStringLabel": "テスト文字列",
+      "testStringPlaceholder": "テストするテキストを入力...",
+      "highlightedLabel": "ハイライトされた一致",
+      "matchCount": "件の一致",
+      "matchCountPlural": "件の一致",
+      "matchDetails": "一致の詳細",
+      "atIndex": "インデックス",
+      "group": "グループ"
+    },
+    "wordCounter": {
+      "title": "文字数カウンター",
+      "description": "単語、文字、文などをカウント",
+      "inputPlaceholder": "ここにテキストを貼り付けまたは入力...",
+      "words": "単語",
+      "characters": "文字",
+      "charsNoSpace": "文字（スペースなし）",
+      "sentences": "文",
+      "paragraphs": "段落",
+      "lines": "行",
+      "readingTime": "読書時間",
+      "readingTimeValue": "約{minutes}分",
+      "topWords": "頻出単語"
+    },
+    "textCase": {
+      "title": "テキスト大文字小文字変換",
+      "description": "テキストを異なる大文字小文字形式に変換",
+      "inputLabel": "入力テキスト",
+      "inputPlaceholder": "ここにテキストを入力...",
+      "uppercase": "すべて大文字",
+      "lowercase": "すべて小文字",
+      "titleCase": "タイトルケース",
+      "sentenceCase": "文の大文字小文字",
+      "camelCase": "キャメルケース",
+      "snakeCase": "スネークケース",
+      "kebabCase": "ケバブケース",
+      "preview": "プレビュー"
+    },
+    "timestamp": {
+      "title": "タイムスタンプ変換",
+      "description": "Unixタイムスタンプと日付を相互変換",
+      "currentTime": "現在時刻",
+      "timestampToDate": "タイムスタンプ → 日付",
+      "timestampPlaceholder": "例: 1700000000",
+      "convertBtn": "変換",
+      "utc": "UTC",
+      "local": "ローカル",
+      "iso": "ISO",
+      "dateToTimestamp": "日付 → タイムスタンプ",
+      "seconds": "秒",
+      "milliseconds": "ミリ秒"
+    },
+    "urlEncoder": {
+      "title": "URLエンコーダー/デコーダー",
+      "description": "URLコンポーネントをエンコードまたはデコード",
+      "inputLabel": "入力",
+      "inputPlaceholder": "URLまたはテキストを入力...",
+      "outputLabel": "出力",
+      "outputPlaceholder": "結果がここに表示されます...",
+      "encodeBtn": "エンコード",
+      "decodeBtn": "デコード",
+      "errorEncode": "エンコードに失敗しました",
+      "errorDecode": "無効なURLエンコード文字列"
+    },
+    "markdownPreview": {
+      "title": "Markdownプレビュー",
+      "description": "Markdownを書いてレンダリングされたプレビューをリアルタイム表示",
+      "inputLabel": "Markdown入力",
+      "previewLabel": "プレビュー",
+      "copyHtml": "HTMLをコピー"
+    }
+  }
+}

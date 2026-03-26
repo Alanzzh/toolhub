@@ -1,0 +1,252 @@
+{
+  "common": {
+    "siteTitle": "ToolHub",
+    "backHome": "← Back to Home",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "clear": "Clear",
+    "generate": "Generate",
+    "download": "Download",
+    "encode": "Encode",
+    "decode": "Decode",
+    "format": "Format",
+    "minify": "Minify",
+    "input": "Input",
+    "output": "Output",
+    "loading": "Loading...",
+    "processing": "Processing..."
+  },
+  "nav": {
+    "language": "Language",
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "pt": "Português",
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية"
+  },
+  "home": {
+    "title": "ToolHub",
+    "subtitle": "Free online tools for everyone. No registration required.",
+    "tools": {
+      "jsonFormatter": {
+        "name": "JSON Formatter",
+        "description": "Format, validate and beautify JSON data"
+      },
+      "base64": {
+        "name": "Base64 Encoder",
+        "description": "Encode and decode Base64 strings"
+      },
+      "password": {
+        "name": "Password Generator",
+        "description": "Generate strong random passwords"
+      },
+      "qrCode": {
+        "name": "QR Code Generator",
+        "description": "Create QR codes from text or URLs"
+      },
+      "hash": {
+        "name": "Hash Generator",
+        "description": "Generate MD5, SHA-1, SHA-256, SHA-512 hashes"
+      },
+      "uuid": {
+        "name": "UUID Generator",
+        "description": "Generate random UUID v4 strings"
+      },
+      "imageCompressor": {
+        "name": "Image Compressor",
+        "description": "Compress JPG and PNG images in browser"
+      },
+      "colorPicker": {
+        "name": "Color Picker",
+        "description": "Pick colors and get HEX, RGB, HSL values"
+      },
+      "regexTester": {
+        "name": "Regex Tester",
+        "description": "Test and debug regular expressions in real-time"
+      },
+      "wordCounter": {
+        "name": "Word Counter",
+        "description": "Count words, characters, sentences and more"
+      },
+      "textCase": {
+        "name": "Text Case Converter",
+        "description": "Convert text between case formats"
+      },
+      "timestamp": {
+        "name": "Timestamp Converter",
+        "description": "Convert Unix timestamps to dates and back"
+      },
+      "urlEncoder": {
+        "name": "URL Encoder",
+        "description": "Encode and decode URL components"
+      },
+      "markdownPreview": {
+        "name": "Markdown Preview",
+        "description": "Write Markdown with live HTML preview"
+      }
+    }
+  },
+  "tools": {
+    "jsonFormatter": {
+      "title": "JSON Formatter",
+      "description": "Format, validate and beautify your JSON data",
+      "inputLabel": "Input JSON",
+      "inputPlaceholder": "{\"name\": \"value\"}",
+      "outputLabel": "Output",
+      "outputPlaceholder": "Formatted JSON will appear here",
+      "formatBtn": "Format",
+      "minifyBtn": "Minify",
+      "clearBtn": "Clear"
+    },
+    "base64": {
+      "title": "Base64 Encoder / Decoder",
+      "description": "Encode text to Base64 or decode Base64 strings",
+      "inputLabel": "Input",
+      "inputPlaceholder": "Enter text to encode or Base64 to decode...",
+      "outputLabel": "Output",
+      "outputPlaceholder": "Result will appear here...",
+      "encodeBtn": "Encode →",
+      "decodeBtn": "← Decode",
+      "errorEncode": "Encoding failed",
+      "errorDecode": "Invalid Base64 string"
+    },
+    "password": {
+      "title": "Password Generator",
+      "description": "Generate strong, random passwords",
+      "lengthLabel": "Length",
+      "charTypesLabel": "Character Types",
+      "uppercase": "Uppercase",
+      "lowercase": "Lowercase",
+      "numbers": "Numbers",
+      "symbols": "Symbols",
+      "countLabel": "Generate Count",
+      "generateBtn": "Generate Passwords"
+    },
+    "qrCode": {
+      "title": "QR Code Generator",
+      "description": "Create QR codes from text or URLs",
+      "textLabel": "Text / URL",
+      "sizeLabel": "Size",
+      "foregroundLabel": "Foreground",
+      "backgroundLabel": "Background",
+      "errorCorrectionLabel": "Error Correction",
+      "errorLow": "L - Low (7%)",
+      "errorMedium": "M - Medium (15%)",
+      "errorQuartile": "Q - Quartile (25%)",
+      "errorHigh": "H - High (30%)",
+      "downloadPng": "Download PNG",
+      "downloadSvg": "Download SVG"
+    },
+    "hash": {
+      "title": "Hash Generator",
+      "description": "Generate MD5, SHA-1, SHA-256, SHA-512 hashes",
+      "inputLabel": "Input Text",
+      "inputPlaceholder": "Enter text to hash...",
+      "generateBtn": "Generate Hashes",
+      "generating": "Generating..."
+    },
+    "uuid": {
+      "title": "UUID Generator",
+      "description": "Generate random UUID v4 strings",
+      "countLabel": "Count",
+      "generateBtn": "Generate UUIDs",
+      "generated": "UUIDs generated",
+      "copyAll": "Copy All"
+    },
+    "imageCompressor": {
+      "title": "Image Compressor",
+      "description": "Compress JPG and PNG images while maintaining quality",
+      "qualityLabel": "Quality",
+      "maxWidthLabel": "Max Width",
+      "dropZone": "Drop images here or click to upload",
+      "dropZoneHint": "JPG, PNG, WebP — up to 20MB each",
+      "compressing": "Compressing...",
+      "original": "Original",
+      "compressed": "Compressed",
+      "saved": "Saved"
+    },
+    "colorPicker": {
+      "title": "Color Picker",
+      "description": "Pick a color and get HEX, RGB, HSL values",
+      "shadesLabel": "Shades"
+    },
+    "regexTester": {
+      "title": "Regex Tester",
+      "description": "Test and debug regular expressions in real-time",
+      "patternLabel": "Pattern",
+      "patternPlaceholder": "e.g. \\d+",
+      "flagsLabel": "Flags",
+      "testStringLabel": "Test String",
+      "testStringPlaceholder": "Enter text to test against...",
+      "highlightedLabel": "Highlighted Matches",
+      "matchCount": "match",
+      "matchCountPlural": "matches",
+      "matchDetails": "Match Details",
+      "atIndex": "at index",
+      "group": "Group"
+    },
+    "wordCounter": {
+      "title": "Word Counter",
+      "description": "Count words, characters, sentences and more",
+      "inputPlaceholder": "Paste or type your text here...",
+      "words": "Words",
+      "characters": "Characters",
+      "charsNoSpace": "Chars (no spaces)",
+      "sentences": "Sentences",
+      "paragraphs": "Paragraphs",
+      "lines": "Lines",
+      "readingTime": "Reading Time",
+      "readingTimeValue": "~{minutes} min",
+      "topWords": "Top Words"
+    },
+    "textCase": {
+      "title": "Text Case Converter",
+      "description": "Convert text between different case formats",
+      "inputLabel": "Input Text",
+      "inputPlaceholder": "Enter your text here...",
+      "uppercase": "UPPERCASE",
+      "lowercase": "lowercase",
+      "titleCase": "Title Case",
+      "sentenceCase": "Sentence case",
+      "camelCase": "camelCase",
+      "snakeCase": "snake_case",
+      "kebabCase": "kebab-case",
+      "preview": "preview"
+    },
+    "timestamp": {
+      "title": "Timestamp Converter",
+      "description": "Convert Unix timestamps to dates and vice versa",
+      "currentTime": "Current Time",
+      "timestampToDate": "Timestamp → Date",
+      "timestampPlaceholder": "e.g. 1700000000",
+      "convertBtn": "Convert",
+      "utc": "UTC",
+      "local": "Local",
+      "iso": "ISO",
+      "dateToTimestamp": "Date → Timestamp",
+      "seconds": "Seconds",
+      "milliseconds": "Milliseconds"
+    },
+    "urlEncoder": {
+      "title": "URL Encoder / Decoder",
+      "description": "Encode or decode URL components",
+      "inputLabel": "Input",
+      "inputPlaceholder": "Enter URL or text...",
+      "outputLabel": "Output",
+      "outputPlaceholder": "Result will appear here...",
+      "encodeBtn": "Encode",
+      "decodeBtn": "Decode",
+      "errorEncode": "Encoding failed",
+      "errorDecode": "Invalid URL-encoded string"
+    },
+    "markdownPreview": {
+      "title": "Markdown Preview",
+      "description": "Write Markdown and see the rendered preview in real-time",
+      "inputLabel": "Markdown Input",
+      "previewLabel": "Preview",
+      "copyHtml": "Copy HTML"
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "common": {
+    "siteTitle": "工具中心",
+    "backHome": "← 返回首页",
+    "copy": "复制",
+    "copied": "已复制！",
+    "clear": "清除",
+    "generate": "生成",
+    "download": "下载",
+    "encode": "编码",
+    "decode": "解码",
+    "format": "格式化",
+    "minify": "压缩",
+    "input": "输入",
+    "output": "输出",
+    "loading": "加载中...",
+    "processing": "处理中..."
+  },
+  "nav": {
+    "language": "语言",
+    "en": "English",
+    "zh": "中文",
+    "ja": "日本語",
+    "pt": "Português",
+    "es": "Español",
+    "ru": "Русский",
+    "ar": "العربية"
+  },
+  "home": {
+    "title": "工具中心",
+    "subtitle": "免费在线工具，无需注册",
+    "tools": {
+      "jsonFormatter": {
+        "name": "JSON 格式化",
+        "description": "格式化、验证和美化 JSON 数据"
+      },
+      "base64": {
+        "name": "Base64 编码",
+        "description": "编码和解码 Base64 字符串"
+      },
+      "password": {
+        "name": "密码生成器",
+        "description": "生成强随机密码"
+      },
+      "qrCode": {
+        "name": "二维码生成器",
+        "description": "从文本或 URL 创建二维码"
+      },
+      "hash": {
+        "name": "哈希生成器",
+        "description": "生成 MD5、SHA-1、SHA-256、SHA-512 哈希值"
+      },
+      "uuid": {
+        "name": "UUID 生成器",
+        "description": "生成随机 UUID v4 字符串"
+      },
+      "imageCompressor": {
+        "name": "图片压缩",
+        "description": "在浏览器中压缩 JPG 和 PNG 图片"
+      },
+      "colorPicker": {
+        "name": "颜色选择器",
+        "description": "选择颜色并获取 HEX、RGB、HSL 值"
+      },
+      "regexTester": {
+        "name": "正则测试器",
+        "description": "实时测试和调试正则表达式"
+      },
+      "wordCounter": {
+        "name": "字数统计",
+        "description": "统计单词、字符、句子等"
+      },
+      "textCase": {
+        "name": "文本大小写转换",
+        "description": "在不同大小写格式之间转换文本"
+      },
+      "timestamp": {
+        "name": "时间戳转换",
+        "description": "Unix 时间戳与日期相互转换"
+      },
+      "urlEncoder": {
+        "name": "URL 编码",
+        "description": "编码和解码 URL 组件"
+      },
+      "markdownPreview": {
+        "name": "Markdown 预览",
+        "description": "编写 Markdown 并实时查看 HTML 预览"
+      }
+    }
+  },
+  "tools": {
+    "jsonFormatter": {
+      "title": "JSON 格式化",
+      "description": "格式化、验证和美化您的 JSON 数据",
+      "inputLabel": "输入 JSON",
+      "inputPlaceholder": "{\"name\": \"value\"}",
+      "outputLabel": "输出",
+      "outputPlaceholder": "格式化后的 JSON 将显示在这里",
+      "formatBtn": "格式化",
+      "minifyBtn": "压缩",
+      "clearBtn": "清除"
+    },
+    "base64": {
+      "title": "Base64 编码/解码",
+      "description": "将文本编码为 Base64 或解码 Base64 字符串",
+      "inputLabel": "输入",
+      "inputPlaceholder": "输入要编码的文本或要解码的 Base64...",
+      "outputLabel": "输出",
+      "outputPlaceholder": "结果将显示在这里...",
+      "encodeBtn": "编码 →",
+      "decodeBtn": "← 解码",
+      "errorEncode": "编码失败",
+      "errorDecode": "无效的 Base64 字符串"
+    },
+    "password": {
+      "title": "密码生成器",
+      "description": "生成强随机密码",
+      "lengthLabel": "长度",
+      "charTypesLabel": "字符类型",
+      "uppercase": "大写字母",
+      "lowercase": "小写字母",
+      "numbers": "数字",
+      "symbols": "符号",
+      "countLabel": "生成数量",
+      "generateBtn": "生成密码"
+    },
+    "qrCode": {
+      "title": "二维码生成器",
+      "description": "从文本或 URL 创建二维码",
+      "textLabel": "文本 / URL",
+      "sizeLabel": "尺寸",
+      "foregroundLabel": "前景色",
+      "backgroundLabel": "背景色",
+      "errorCorrectionLabel": "纠错级别",
+      "errorLow": "L - 低 (7%)",
+      "errorMedium": "M - 中 (15%)",
+      "errorQuartile": "Q - 四分之一 (25%)",
+      "errorHigh": "H - 高 (30%)",
+      "downloadPng": "下载 PNG",
+      "downloadSvg": "下载 SVG"
+    },
+    "hash": {
+      "title": "哈希生成器",
+      "description": "生成 MD5、SHA-1、SHA-256、SHA-512 哈希值",
+      "inputLabel": "输入文本",
+      "inputPlaceholder": "输入要哈希的文本...",
+      "generateBtn": "生成哈希值",
+      "generating": "生成中..."
+    },
+    "uuid": {
+      "title": "UUID 生成器",
+      "description": "生成随机 UUID v4 字符串",
+      "countLabel": "数量",
+      "generateBtn": "生成 UUID",
+      "generated": "个 UUID 已生成",
+      "copyAll": "全部复制"
+    },
+    "imageCompressor": {
+      "title": "图片压缩",
+      "description": "在保持质量的同时压缩 JPG 和 PNG 图片",
+      "qualityLabel": "质量",
+      "maxWidthLabel": "最大宽度",
+      "dropZone": "拖放图片到这里或点击上传",
+      "dropZoneHint": "JPG、PNG、WebP — 每个最大 20MB",
+      "compressing": "压缩中...",
+      "original": "原始",
+      "compressed": "压缩后",
+      "saved": "节省"
+    },
+    "colorPicker": {
+      "title": "颜色选择器",
+      "description": "选择颜色并获取 HEX、RGB、HSL 值",
+      "shadesLabel": "色调"
+    },
+    "regexTester": {
+      "title": "正则测试器",
+      "description": "实时测试和调试正则表达式",
+      "patternLabel": "模式",
+      "patternPlaceholder": "例如 \\d+",
+      "flagsLabel": "标志",
+      "testStringLabel": "测试字符串",
+      "testStringPlaceholder": "输入要测试的文本...",
+      "highlightedLabel": "高亮匹配",
+      "matchCount": "个匹配",
+      "matchCountPlural": "个匹配",
+      "matchDetails": "匹配详情",
+      "atIndex": "位于索引",
+      "group": "组"
+    },
+    "wordCounter": {
+      "title": "字数统计",
+      "description": "统计单词、字符、句子等",
+      "inputPlaceholder": "在此粘贴或输入您的文本...",
+      "words": "单词",
+      "characters": "字符",
+      "charsNoSpace": "字符（无空格）",
+      "sentences": "句子",
+      "paragraphs": "段落",
+      "lines": "行",
+      "readingTime": "阅读时间",
+      "readingTimeValue": "约 {minutes} 分钟",
+      "topWords": "高频词"
+    },
+    "textCase": {
+      "title": "文本大小写转换",
+      "description": "在不同大小写格式之间转换文本",
+      "inputLabel": "输入文本",
+      "inputPlaceholder": "在此输入您的文本...",
+      "uppercase": "全部大写",
+      "lowercase": "全部小写",
+      "titleCase": "标题大小写",
+      "sentenceCase": "句子大小写",
+      "camelCase": "驼峰命名",
+      "snakeCase": "下划线命名",
+      "kebabCase": "短横线命名",
+      "preview": "预览"
+    },
+    "timestamp": {
+      "title": "时间戳转换",
+      "description": "Unix 时间戳与日期相互转换",
+      "currentTime": "当前时间",
+      "timestampToDate": "时间戳 → 日期",
+      "timestampPlaceholder": "例如 1700000000",
+      "convertBtn": "转换",
+      "utc": "UTC",
+      "local": "本地",
+      "iso": "ISO",
+      "dateToTimestamp": "日期 → 时间戳",
+      "seconds": "秒",
+      "milliseconds": "毫秒"
+    },
+    "urlEncoder": {
+      "title": "URL 编码/解码",
+      "description": "编码或解码 URL 组件",
+      "inputLabel": "输入",
+      "inputPlaceholder": "输入 URL 或文本...",
+      "outputLabel": "输出",
+      "outputPlaceholder": "结果将显示在这里...",
+      "encodeBtn": "编码",
+      "decodeBtn": "解码",
+      "errorEncode": "编码失败",
+      "errorDecode": "无效的 URL 编码字符串"
+    },
+    "markdownPreview": {
+      "title": "Markdown 预览",
+      "description": "编写 Markdown 并实时查看渲染预览",
+      "inputLabel": "Markdown 输入",
+      "previewLabel": "预览",
+      "copyHtml": "复制 HTML"
+    }
+  }
+}
